@@ -1,11 +1,13 @@
 import React from "react";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Grow from "@material-ui/core/Grow";
-import { makeStyles } from "@material-ui/core/styles";
 import * as themes from "./Themes";
+import {
+  Card,
+  CardContent,
+  Typography,
+  Container,
+  Grow,
+  makeStyles,
+} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   smallText: {

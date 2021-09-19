@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import dotenv from "dotenv";
-import { makeStyles } from "@material-ui/core/styles";
 import { red } from "@material-ui/core/colors";
 import Search from "@material-ui/icons/Search";
-import Button from "@material-ui/core/Button";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import TextField from "@material-ui/core/TextField";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Fade from "@material-ui/core/Fade";
 import WeatherCards from "./components/WeatherCards";
 import * as themes from "./components/Themes";
+import {
+  Button,
+  CssBaseline,
+  TextField,
+  Typography,
+  Container,
+  Fade,
+  makeStyles,
+} from "@material-ui/core";
 
 dotenv.config();
 
